@@ -1,0 +1,93 @@
+.myfirstclass{
+  list-style-type: none;
+  margin-top: 10px;
+  overflow: hidden;
+  background-color: #8A2BE2;
+}
+
+.firstlist{
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+li a:hover {
+  background-color: #111;
+}
+img{
+    display: block;
+    margin-top: 3px;
+    padding-right: none;
+}
+.logo-image{
+    height: 40px;
+    overflow: unset;
+    margin-top: -2px;
+}
+.back{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.my-name{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+}
+.introsec{
+    width: 100%;
+    background-color: #D8BFD8; 
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-style: solid;
+    border-radius: 9px;
+    border-width: 1px;
+}
+.myheadertype{
+  padding-left: 20px;
+  margin-top: 10px;
+  font-size: 45px;
+  font-weight: bold;
+}
+.mytexttype{
+  padding-left: 50px;
+  padding-right: 30px;
+  font-size: 20px;
+  text-align: justify;
+}
+.introhtml{
+  width: 100%;
+  background-color: #FFC0CB;
+  color: black;
+  border-style: solid;
+  border-radius: 9px;
+  border-width: 1px;
+  margin-top: 15px;
+}
+.introcss{
+  width: 100%;
+  background-color: #FFC0CB; 
+  color: black;
+  border-style: solid;
+  border-radius: 9px;
+  border-width: 1px;
+  margin-top: 15px;
+}
+.introjavascript{
+  width: 100%;
+  background-color: #FFC0CB; 
+  color: black;
+  border-style: solid;
+  border-radius: 9px;
+  border-width: 1px;
+  margin-top: 15px;
+}
+.toaddjs{
+  color: blue;
+}
