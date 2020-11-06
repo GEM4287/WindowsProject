@@ -7,20 +7,145 @@
     <body class="back" background="img/photo-1567095716798-1d95d8f4c479.jpg">
         <ul class = "myfirstclass">
             <li class="firstlist"><div class="logo-image"><img src="img/800_3684860_z51lai6usq1oxp73i9vzu21a2vrk3jv5keo3p7vo_gm-monogram-logo-design.jpg" width="100px" height="48px"></div></li>
-            <li class="firstlist"><a href="#home">Home</a></li>
-            <li class="firstlist"><a href="#news">HTML</a></li>   
-            <li class="firstlist"><a href="#contact">CSS</a></li>
-            <li class="firstlist"><a href="#about">JAVASCRIPT</a></li>
+            <li class="firstlist"><a href="#home">Introduction to HTML</a></li>
+            <li class="firstlist"><a href="#eleinhtml">Elements in HTML</a></li>
         </ul>
+        <h2 style = "text-align: center;font-size: 40px;"><strong>Introduction to HTML</strong></h2>
         <div class = "introhtml">
-            <p>
-                Important features of HTML 5:
-                <ul>
+            <br><strong> Important features of HTML 5:</strong><br>
+            <p class="mytexttype">
+                <ul class="mytexttype">
                     <li>a. Semantics: Allowing us to describe more precisely what our content is.</li>
                     <li>b. Multimedia: Incorporation of special element for audio and video embedding.</li>
                     <li>c. Device Access: Allowing for usage of various input and output devices.</li>
                     <li>d. Performance and Integration: Providing greater speed optimization and better usage of computer hardware.</li>
                 </ul>
+            </p>
+            <p class="mytexttype">
+                <strong> a.) Opening Tag:</strong> This consists of name of the element. It marks where the element begins.<br>
+                <strong>b. Content:</strong> Information of the element.<br>
+                <strong>c. Closing Tag:</strong> This marks end of the element and it precedes tag name with a
+                forward slash.<br><br>
+                So, an element in HTML is: Opening tag, followed by content, followed by closing
+                tag.<br>
+                Note-1: Content “Hello HTML!”, has a semantics/meaning now. What is it?<br>
+                Note-2: HTML is case in-sensitive.<br>
+            </p>
+        </div>
+        <h2 style = "text-align: center;font-size: 40px;" id = "eleinhtml"><strong>Elements in HTML</strong></h2>
+        <div class = "introhtml">
+
+            <br><strong> 1) Block-level Element:</strong><br>
+            <p class="mytexttype">
+                a. These elements are the structural element of HTML.
+                b. These forms the visible parts of the page. A block-level element appear in new
+                line following the content that precedes it.
+                c. Ex.: Heading, Paragraph, Lists, Navigation, Footer and so on.
+                d. Block-level elements can be nested within another block-level element but not
+                within a inline-element.
+            </p>
+            <br><br><strong>2) Inline Element:</strong><br>
+            <p class="mytexttype">
+                a. Inline Element are contained within block-level element and surrounds only small
+                parts of the document.
+                b. No new line after inline element in the document.
+                c. Ex. Include: &lt;a&gt;, &lt;em&gt;, &lt;strong&gt; and many more.
+            </p>
+            <br><br><strong>3) Empty Element:</strong><br>
+            <p class="mytexttype"> 
+                a. Not all elements follow the patterns of opening tag, content and closing tag.
+                Some elements only consists of single element, such element are called empty
+                element.
+                b. Ex. &lt;img src=“imag.jpeg”&gt;<br>
+            </p>
+            <br><strong>4) &lt;meta&gt; element:</strong><br>
+            <p class="mytexttype">
+                a. Metadata is the data that describes data, and <meta> element achieves this.
+                b. ex. For specifying character set of the document:
+                &lt;meta charset=“utf-8”&gt;
+                <br>[Note-1: utf-8, Unicode Transformation Format – 8 bit.
+                (Universal Coded Character set).]
+                <br>[Note-2: utf-8 is a variable-width character encoding used for electronic
+                communication.]
+                <br>ex, adding author and description:
+                &lt;meta name=“author” content=“Gaurav Mehta”&gt;
+                &lt;meta name=“description” content=“Basics of HTML.”&gt;
+            </p>
+            <br><br><strong>5) Paragraph and Heading element:</strong><br> &lt;p&gt;&lt;/p&gt;, &lt;h1&gt;&lt;h2&gt;…&lt;h6&gt;&lt;/h6&gt;…&lt;/h2&gt;&lt;/h1&gt;.
+            <p class="mytexttype">    
+                <br>a. Paragraphs are wrapped using &lt;p&gt;&lt;/p&gt; tag.
+                <br>b. &lt;h1&gt; represents main heading, &lt;h2&gt; represents sub-heading, &lt;h3&gt; represents
+                sub-sub-heading and so on.
+            </p>
+            <br><br><strong>6) List Element:</strong>
+            <p class="mytexttype">    
+                <br><strong>a. Un-ordered list:</strong> Un-ordered list are used to mark up lists of items for which
+                the order of the item doesn’t matter.
+                ex. &lt;ul&gt;
+                &lt;li&gt; Book.&lt;/li&gt;
+                &lt;li&gt;Pen.&lt;/li&gt;
+                &lt;/ul&gt;
+                <br><strong>b. Ordered List:</strong>
+                --- In ordered list, order of the item does matter.
+                --- ex. &lt;ol&gt;
+                &lt;li&gt;Go straight.&lt;/li&gt;
+                &lt;li&gt;Turn Left. &lt;/li&gt;
+                &lt;/ol&gt;
+                <br><strong>c. Description List:</strong>
+                <br>The propose of this list is to markup a set of item and their associated
+                descriptions, such as terms and definitions.
+                <br>It uses &lt;dl&gt; as a wrapper and in addition uses &lt;dt&gt; (description term)
+                element, and each description is wrapped in a &lt;dd&gt; (description definition)
+                element.
+                --- ex. &lt;dl&gt;
+                &lt;dt&gt;Computer Science.&lt;/dt&gt;
+                &lt;dd&gt;Evolving.&lt;/dd&gt;
+                &lt;/dl&gt;
+                <br>Single term can have multiple description.
+            </p>
+            <br><br><strong>7) Emphasis element&lt;em&gt;:</strong>
+            <p class="mytexttype">    
+                <br>When we want to stress some words, there by subtly altering its meaning, we
+                use &lt;em&gt; element to that.
+                <br>Browser style it as italics by default.
+                <br>ex. &lt;p> I am &lt;em&gt;glad&lt;/em&gt; you weren’t &lt;em&gt;late&lt;/em&gt;&lt;/p&gt;.
+            </p>
+            <br><br><strong>8) &lt;strong&gt; element:</strong> 
+            <p class="mytexttype">    
+                <br>To give importance to certain words we use &lt;strong> element.
+                <br>By default browser renders it in bold.
+            </p>
+            <br><br><strong>9) Bold&lt;b&gt;, Italics&lt;i&gt;, and Underline&lt;u&gt;:</strong>
+            <p class="mytexttype">    
+                <br>Elements of HTML has associated semantics.
+                <br>However, &lt;b&gt;,&lt;i&gt; and &lt;u&gt; only affect presentation and not semantics.
+            </p>
+            <br><br><strong>10) Quotations:</strong>
+            <p class="mytexttype">    
+                <br>Either block-level or inline quotation are permissible in HTML.
+                <br><strong>Blockquotes:</strong>
+                <br>Section of block-level content (be it paragraph, multiple paragraph, a list
+                etc.) is quoted from some where else.
+                <br><strong>Abbreviation&lt;abbr&gt;:</strong>
+                <br>Wrapping around an abbreviation or acronym and provide full expansion of
+                the term, included inside title attribute.
+                <br>---ex.
+                We use &lt;abbr title=“Hypertext Markup Language”&gt;HTML&lt;/abbr&gt; to
+                structure our web document.
+            </p>
+            <br><br><br><strong> Attribute:</strong><br>
+            <p class="mytexttype">
+                a. Attribute contain extra information about the element that won’t appear in
+                the content.
+                b. In this ex. Class attribute is an identifying name used to target the element
+                with style or JavaScript information.
+            </p>
+            <br><strong>HTML Comments:</strong><br>
+            <p class="mytexttype">
+                a. The purpose of comments is to allow us to include notes in the code to explain
+                our logic.
+                b. Browser ignores comments.
+                c. &lt;!-- --&gt;
             </p>
         </div>
         <h1 class="my-name text-center"> Gaurav Mehta </h1>

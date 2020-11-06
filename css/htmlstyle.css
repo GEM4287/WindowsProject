@@ -41,13 +41,18 @@
     text-align: center;
 }
 .introhtml{
-    width: 50%;
+    width: 97%;
     background-color: #D8BFD8; 
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-style: solid;
     border-radius: 9px;
     border-width: 1px;
-    display: inline;
-    float: left;
+    padding-left: 30px;
+}
+.mytexttype{
+  padding-left: 50px;
+  padding-right: 30px;
+  font-size: 18px;
+  text-align: justify;
 }
